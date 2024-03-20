@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Weather Information </title>
+</head>
+<body>
+    <p> City : {{ weatherinfo.city }}</p>
+    <p> Temperature is : {{ weatherinfo.current_temperature }} Degree Celsius</p>
+    <p> Average Temperature is : {{ weatherinfo.average_temperature }} Degree Celsius</p>
+    <p> Humidity is : {{ weatherinfo.humidity }} %</p>
+    <p> Visibility is : {{ weatherinfo.visibility }} km</p>
+    <p> Description is : {{ weatherinfo.description}}</p>
+    <p> Wind Speed(km/h) is : {{ weatherinfo.wind_speed }} km/hr</p>
+    <p> Observed At: is : {{ weatherinfo.observation_time }}</p>
+</body>
+</html>
