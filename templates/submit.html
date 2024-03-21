@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Weather Information </title>
+    <title> {{weatherinfo.city}} Information </title>
 </head>
 <body>
+    <p><b><h1>{{weatherinfo.city }}'s Weather Today </h1> </b></p>
     <p> City : {{ weatherinfo.city }}</p>
     <p> Temperature is : {{ weatherinfo.current_temperature }} Degree Celsius</p>
     <p> Average Temperature is : {{ weatherinfo.average_temperature }} Degree Celsius</p>
@@ -15,4 +16,13 @@
     <p> Wind Speed(km/h) is : {{ weatherinfo.wind_speed }} km/hr</p>
     <p> Observed At: is : {{ weatherinfo.observation_time }}</p>
 </body>
+<footer style="  position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: black;
+color: white;
+text-align: center;">
+    Developed by <a href="https://sairaj.tabcat.live"> Sairaj Pai</a>
+</footer>
 </html>
